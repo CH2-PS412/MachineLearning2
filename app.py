@@ -56,3 +56,5 @@ def prediction():
             },
             "data":None,
         }), 405
+if __name__ == "__main__":
+    app.run(port=5000)
